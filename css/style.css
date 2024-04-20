@@ -1,3 +1,4 @@
+@import url(./base/_body.scss);
 * {
   padding: 0;
   margin: 0;
@@ -11,10 +12,84 @@ h1 {
   text-decoration: none;
   font-weight: bolder;
   font-size: clamp(2em, 5vw, 5em);
+  background-image: linear-gradient(to bottom, #080909, #0e1011, #131616, #171a1c, #1b1f21, #1e252a, #222c33, #27323d, #2b3c4d, #30465e, #35516f, #3b5b81);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 body {
   background-image: linear-gradient(to top, #111111, #3a2a3b, #763d57, #b6545d, #e77950, #f59149, #fdaa41, #ffc63d, #ffc946, #ffcc4e, #ffcf56, #ffd25e);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  max-height: 10%;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #080909, #0e1011, #131616, #171a1c, #1b1f21, #1e252a, #222c33, #27323d, #2b3c4d, #30465e, #35516f, #3b5b81);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+input,
+textarea {
+  min-width: 30%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: bottom 10px;
+  text-align: center;
+  background-color: white;
+}
+
+main {
+  text-align: center;
+  margin: 50px;
+}
+
+h2 {
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: clamp(2em, 2vw, 2em);
+  margin: 50px;
+  background-image: linear-gradient(to bottom, #080909, #0e1011, #131616, #171a1c, #1b1f21, #1e252a, #222c33, #27323d, #2b3c4d, #30465e, #35516f, #3b5b81);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  text-align: center;
+  margin: 15px;
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: clamp(2em, 2vw, 2em);
+  background-image: linear-gradient(to bottom, #080909, #0e1011, #131616, #171a1c, #1b1f21, #1e252a, #222c33, #27323d, #2b3c4d, #30465e, #35516f, #3b5b81);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+p {
+  margin: 15px;
+  text-decoration: solid;
+  font-weight: normal;
+  font-size: clamp(1.2em, 1.2vw, 1.2em);
 }
 
 /*# sourceMappingURL=style.css.map */

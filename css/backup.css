@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+#ContainersTienda{
+    box-shadow: 0 0 8px;
+    width: 98%;
+    border: 2px solid black;
+    animation-name: background-move;
+    animation-iteration-count:infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+@keyframes background-move {
+    0%{
+        box-shadow: 2px -2px 5px yellow;
+        background-color: lightblue;
+    }
+    25%{
+        box-shadow:2px 2px 5px red;
+        background-color: lightgoldenrodyellow;
+    }
+    50%{
+        box-shadow: -2px 2px 5px blue;
+        background-color: #e152a9;
+    }
+    100%{
+        box-shadow: -2px -2px 5px green;
+        background-color: coral;
+    }
+}
+
+#galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+}
+
+#galeria img{
+    width: 100%;
+    height: 350px;
+}
+
+#galeria img:hover{
+    border: 2px solid goldenrod;
+    }
+
+    .--container{
+        text-align: center;
+        margin: 15px;
+    text-decoration: solid;
+    font-weight: normal;
+    font-size: clamp(1.2em, 1.2vw, 1.2em);
+    }
+
+    #TextoFooter{
+        text-align: center;
+    }
+    
+    .d-flex{
+        margin: 10px;
+    }
+
+    .grid-layout{
+        display: grid;
+        background-color: burlywood;
+        border: 15px solid black;
+        min-width: 50%;
+        max-width: 80%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    @media(max-width:500px){
+        body{
+    background-color: rgba(253, 199, 73, 0.837);
+        }
+        }
+
+        #ContainerContacto{
+            min-width: 70%;
+            max-width: 70%;
+        }
+    
+        .nav-link:hover{
+            transform: scale(1.2);
+            transition: transform 250ms;
+
+        }
+
+        .navbar-brand:hover{
+            transform: scale(1.2);
+            transition: transform 500ms;
+
+        }
+
+        .rounded:hover{
+            transform: scale(1.1);
+            transition: transform 500ms;
+        }
+
+        #imgSobreNosotros:hover{
+            transform: scale(1.2);
+            transition: transform 250ms;
+        }

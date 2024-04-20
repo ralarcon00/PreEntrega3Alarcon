@@ -1,12 +1,12 @@
-h1{
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 24px;
     text-align: center;
-    text-transform: uppercase;
-    margin: 15px;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: clamp(2em, 5vw, 5em);
     background-image: linear-gradient(to bottom, #080909, #0e1011, #131616, #171a1c, #1b1f21, #1e252a, #222c33, #27323d, #2b3c4d, #30465e, #35516f, #3b5b81);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    }
+}
