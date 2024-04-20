@@ -4,4 +4,17 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: clamp(2em, 5vw, 5em);
+}
+
+body {
+  background-image: linear-gradient(to top, #111111, #3a2a3b, #763d57, #b6545d, #e77950, #f59149, #fdaa41, #ffc63d, #ffc946, #ffcc4e, #ffcf56, #ffd25e);
+}
+
 /*# sourceMappingURL=style.css.map */
